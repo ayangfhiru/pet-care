@@ -1,0 +1,490 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lumanosimo&family=Permanent+Marker&family=Preahvihear&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link href="./public/css/output.css" rel="stylesheet">
+    <title>Pet Care</title>
+</head>
+
+<body class="pb-5 pt-22">
+    <header
+        class="fixed top-0 right-0 left-0 flex justify-between items-center px-6 py-5 mx-auto w-10/12 z-[999] lg:px-10">
+        <a href="" class="w-fit flex justify-center items-center space-x-1">
+            <i class="fa-solid fa-paw fa-2xl" style="color: #0284c7;"></i>
+            <p class="font-permanent font-bold text-2xl">Petty</p>
+        </a>
+        <a id="hamburger" href="" class="block md:hidden"><i class="fa-solid fa-bars fa-2xl"></i></a>
+        <ul
+            class="hidden absolute right-0 top-18 w-full flex-col items-end space-x-0 rounded-xl px-10 py-2 bg-gray-300 md:flex md:relative md:top-0 md:w-auto md:flex-row md:space-x-5 md:bg-transparent">
+            <li><a href="" class="font-bree under-line">Home</a></li>
+            <li><a href="#service" class="font-bree under-line">Service</a></li>
+            <li><a href="#training" class="font-bree under-line">Training</a></li>
+            <li><a href="#medicare" class="font-bree under-line">Medi-care</a></li>
+            <a href=""
+                class="mt-5 inline-block px-3 py-1 rounded-full border-2 border-black font-bree capitalize md:hidden">book
+                now</a>
+        </ul>
+        <a href="" class="hidden px-3 py-1 rounded-full border-4 border-black font-bree capitalize md:inline-block">book
+            now</a>
+    </header>
+    <section class="w-11/12 mx-auto">
+        <div class="mt-5 flex flex-col space-x-7 justify-between items-center py-10 md:flex-row">
+            <span class="order-last mt-10 md:order-first md:mt-0">
+                <h1 class="font-bree font-bold text-5xl text-center md:text-start">Care of your <br>Little pet</h1>
+                <p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus vitae culpa
+                    laboriosam quam perferendis qui nemo debitis.</p>
+                <span class="inline-block mt-7">
+                    <a href=""
+                        class="px-5 py-2 mx-2 rounded-full font-bree border-2 border-black transition-all duration-300 bg-transparent hover:border-transparent hover:bg-green-400">Service</a>
+                    <a href=""
+                        class="px-5 py-2 mx-2 rounded-full font-bree border-2 border-black transition-all duration-300 bg-transparent hover:border-transparent hover:bg-green-400">
+                        Call <i class="fa-solid fa-phone-flip"></i>
+                    </a>
+                </span>
+            </span>
+            <div
+                class="order-first flex justify-end space-x-12 pl-0 relative md:order-last md:space-x-12 lg:space-x-32 md:pl-12">
+                <span
+                    class="w-40 h-56 block rounded-full overflow-hidden relative drop-shadow-xl md:w-52 md:h-72 lg:w-60 lg:h-96">
+                    <img src="./public/images/pet1.jpg" id="hero1" alt=""
+                        class="absolute block w-full h-full object-cover transition-all duration-1000">
+                </span>
+                <span
+                    class="w-22 h-36 block rounded-full overflow-hidden relative drop-shadow-xl md:w-36 md:h-48 lg:w-48 lg:h-72">
+                    <img src="./public/images/pet2.jpg" id="hero2" alt=""
+                        class="absolute block w-full h-full object-cover transition-all duration-1000">
+                </span>
+                <a href="" id="switchImg"
+                    class="absolute bottom-10 right-19 block drop-shadow-lg py-3 px-5 -rotate-45 rounded-full bg-gray-300 hover:bg-gray-200 md:right-32 lg:bottom-20 lg:right-52">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+        <span class="w-full space-x-2 my-10 flex justify-center md:space-x-5">
+            <span class="fa-shake fa-xl">
+                <i class="fa-solid fa-paw fa-2xl rotate-45" style="color: #0284c7;"></i>
+            </span>
+            <span class="mx-auto inline-block py-px w-4/5 bg-sky-600"></span>
+            <span class="fa-bounce fa-xl">
+                <i class="fa-solid fa-paw fa-2xl -rotate-45" style="color: #0284c7;"></i>
+            </span>
+        </span>
+        <div class="flex items-center justify-center flex-wrap space-x-5">
+            <img src="./public/images/cat.jpg" alt=""
+                class="order-1 w-24 h-24 object-cover rounded-full border-2 border-sky-600 drop-shadow-xl md:w-36 md:h-36 lg:w-40 lg:h-40">
+            <span class="mt-5 order-3 sm:order-2 md:mt-0">
+                <p class="text-center font-bree text-xl">Apa yang bisa Saya Bantu</p>
+                <p class="text-center font-bree text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    <br>Beatae reprehenderit vel illo officia perspiciatis unde!
+                </p>
+            </span>
+            <img src="./public/images/parrot.jpg" alt=""
+                class="order-2 w-24 h-24 object-cover object-top rounded-full border-2 border-sky-600 drop-shadow-xl sm:order-3 md:w-36 md:h-36 lg:w-40 lg:h-40">
+        </div>
+        <div class="mt-10 flex items-start divide-x-4 divide-ash bg-steel p-5 rounded-lg">
+            <div class="flex flex-col items-center space-x-0 p-3 box-border w-1/2 md:flex-row md:space-x-2">
+                <span class="px-3 py-3 rounded-full border-4 border-tiffany md:py-7">
+                    <i class="inline-block fa-solid fa-hand-holding-heart fa-lg md:hidden" style="color: #F7F9F9;"></i>
+                    <i class="hidden fa-solid fa-hand-holding-heart fa-2xl md:inline-block" style="color: #F7F9F9;"></i>
+                </span>
+                <span class="text-seasalt">
+                    <h3 class="text-sm text-seasalt font-bree font-bold capitalize text-center md:text-start">Best
+                        quality pet
+                        Service</h3>
+                    <p class="text-xs text-center text-seasalt md:text-sm md:text-start">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit.</p>
+                </span>
+            </div>
+            <div class="flex flex-col items-center space-x-0 p-3 box-border w-1/2 md:flex-row md:space-x-2">
+                <span class="px-3 py-3 rounded-full border-4 border-tiffany md:py-7">
+                    <i class="inline-block fa-solid fa-bone fa-lg -rotate-45 md:hidden" style="color: #F7F9F9;"></i>
+                    <i class="hidden fa-solid fa-bone fa-2xl -rotate-45 md:inline-block" style="color: #F7F9F9;"></i>
+                </span>
+                <span class="">
+                    <h3 class="text-sm text-seasalt font-bree font-bold capitalize text-center md:text-start">Best
+                        quality pet
+                        Training</h3>
+                    <p class="text-xs text-center text-seasalt md:text-sm md:text-start">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit.</p>
+                </span>
+            </div>
+            <div class="flex flex-col items-center space-x-0 p-3 box-border w-1/2 md:flex-row md:space-x-2">
+                <span class="px-3 py-3 rounded-full border-4 border-tiffany md:py-7">
+                    <i class="inline-block fa-solid fa-stethoscope fa-lg md:hidden" style="color: #F7F9F9;"></i>
+                    <i class="hidden fa-solid fa-stethoscope fa-2xl md:inline-block" style="color: #F7F9F9;"></i>
+                </span>
+                <span class="">
+                    <h3 class="text-sm text-seasalt font-bree font-bold capitalize text-center md:text-start">Best
+                        quality pet
+                        Medi-care</h3>
+                    <p class="text-xs text-center text-seasalt md:text-sm md:text-start">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit.</p>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- Service -->
+    <section id="service" class="px-3 md:px-0">
+        <div class="my-10 flex justify-center items-center space-x-2 md:space-x-16">
+            <div class="relative">
+                <span class="absolute -bottom-44 -z-10 w-fit opacity-95 left-1/2 -translate-x-1/2">
+                    <svg class="hidden md:block" id="visual" viewBox="0 0 900 600" width="660" height="750"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                        <g transform="translate(445.17242574475006 320.8450749341933)">
+                            <path
+                                d="M188.5 -150.5C235.8 -91.1 259.8 -13.2 240.4 48C221 109.2 158.2 153.7 93.6 179C28.9 204.2 -37.6 210.2 -102.3 188.3C-166.9 166.4 -229.7 116.6 -236.8 61.1C-243.9 5.5 -195.2 -55.7 -146.5 -115.5C-97.7 -175.3 -48.9 -233.6 10.9 -242.3C70.6 -251 141.3 -210 188.5 -150.5"
+                                fill="#63D2FF"></path>
+                        </g>
+                    </svg>
+                </span>
+                <img src="./public/images/pet-service.jpg" alt="" class="w-28 rounded-full object-cover md:w-52">
+            </div>
+            <span class="w-60 md:w-72">
+                <h1 class="capitalize text-3xl font-bree font-bold">Pet Service</h1>
+                <p class="text-xs md:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati
+                    nihil ex itaque,
+                    exercitationem quos autem, aut facere ipsa tenetur veniam quam rerum, aspernatur deleniti fugit
+                    voluptatibus vero. Exercitationem, minima!
+                    <span id="textMore" class="hidden">Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit.
+                        Illum expedita laboriosam incidunt, corrupti quis in laborum dignissimos commodi dolores dolorem
+                        eos voluptatem nesciunt officia eum ab molestias ipsum soluta fugiat.</span>
+                    <span id="readMore" class="text-gray-500 cursor-pointer">Read more...</span>
+                </p>
+            </span>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="capitalize font-bree text-3xl">the service we have</h1>
+            <p class="text-center w-full md:w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, et qui
+                eius quae id quibusdam eveniet sit nobis, tempore omnis quidem rerum natus facere! Ipsam odio ad
+                perspiciatis distinctio eaque?</p>
+            <div class="mt-10 flex flex-wrap justify-center">
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-cookie-bite fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">healty pet food</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-scissors fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">pet grooming</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-syringe fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">full vaccine</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-shield-virus fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">sterile 24/7</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span class="w-full space-x-2 my-20 flex justify-center md:space-x-10">
+        <span class="fa-bounce fa-xl">
+            <i class="fa-solid fa-dog fa-2xl fa-bounce" style="color: #0284c7;"></i>
+        </span>
+        <span class="inline-block py-px w-4/5 bg-sky-600"></span>
+        <span class="fa-bounce fa-xl">
+            <i class="fa-solid fa-cat fa-2xl -scale-x-100 rotate-12" style="color: #0284c7;"></i>
+        </span>
+    </span>
+    <!-- Training -->
+    <section id="training" class="px-3 md:px-0">
+        <div class="my-10 flex justify-center items-center space-x-2 md:space-x-16">
+            <div class="relative">
+                <span class="absolute -bottom-16 w-fit -z-10 opacity-95 left-1/2 -translate-x-1/2">
+                    <svg class="hidden md:block" viewBox="0 0 200 200" width="470" height="510"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#63D2FF"
+                            d="M43.5,-73.2C52.5,-61.8,53.4,-43.3,61.2,-27.6C68.9,-11.9,83.4,1.1,86.1,15.5C88.9,29.8,79.8,45.5,67.7,57.8C55.7,70,40.7,78.8,25.7,79.4C10.8,80.1,-4.2,72.7,-17.2,65.6C-30.2,58.6,-41.3,52,-52.2,43.2C-63.2,34.3,-74,23.3,-79.4,9.3C-84.7,-4.7,-84.6,-21.6,-76.6,-33.3C-68.6,-44.9,-52.8,-51.2,-38.7,-60.2C-24.6,-69.3,-12.3,-81,2.5,-84.8C17.2,-88.6,34.4,-84.5,43.5,-73.2Z"
+                            transform="translate(100 100)" />
+                    </svg>
+                </span>
+                <img src="./public/images/pet-training.jpg" alt="" class="w-36 rounded-full object-cover md:w-64">
+            </div>
+            <span class="w-60 md:w-72">
+                <h1 class="capitalize text-3xl font-bree font-bold">Pet Training</h1>
+                <p class="text-xs md:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati
+                    nihil ex itaque,
+                    exercitationem quos autem, aut facere ipsa tenetur veniam quam rerum, aspernatur deleniti fugit
+                    voluptatibus vero. Exercitationem, minima!
+                    <span id="textMore" class="hidden">Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit.
+                        Illum expedita laboriosam incidunt, corrupti quis in laborum dignissimos commodi dolores dolorem
+                        eos voluptatem nesciunt officia eum ab molestias ipsum soluta fugiat.</span>
+                    <span id="readMore" class="text-gray-500 cursor-pointer">Read more...</span>
+                </p>
+            </span>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="capitalize font-bree text-3xl">the training we have</h1>
+            <p class="text-center w-full md:w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, et qui
+                eius quae id quibusdam eveniet sit nobis, tempore omnis quidem rerum natus facere! Ipsam odio ad
+                perspiciatis distinctio eaque?</p>
+            <div class="mt-10 flex flex-wrap justify-center">
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-rotate fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Recall</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-chair fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Sit</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-paw fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Heeling</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Stay</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-heart fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Socialising</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolorum voluptatum dolores molestiae harum aut distinctio repellendus
+                        asperiores praesentium nulla. Porro deserunt blanditiis harum, vero quisquam debitis? Architecto
+                        sed, officiis id deleniti repellat quis? Sed, fugiat quo ea esse cum impedit, sit ipsum quia
+                        recusandae dolorem explicabo provident amet totam necessitatibus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span class="w-full space-x-2 my-20 flex justify-center md:space-x-10">
+        <span class="fa-bounce fa-xl">
+            <i class="fa-solid fa-dog fa-2xl fa-bounce" style="color: #0284c7;"></i>
+        </span>
+        <span class="inline-block py-px w-4/5 bg-sky-600"></span>
+        <span class="fa-bounce fa-xl">
+            <i class="fa-solid fa-cat fa-2xl -scale-x-100 rotate-12" style="color: #0284c7;"></i>
+        </span>
+    </span>
+    <!-- Medi-Care -->
+    <section id="medicare" class="px-3 md:px-0">
+        <div class="my-10 flex justify-center items-center space-x-2 md:space-x-16">
+            <div class="relative">
+                <span class="absolute -bottom-16 w-fit -z-10 opacity-95 left-1/2 -translate-x-1/2">
+                    <svg class="hidden md:block" viewBox="0 0 200 200" width="470" height="510"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#63D2FF"
+                            d="M43.5,-73.2C52.5,-61.8,53.4,-43.3,61.2,-27.6C68.9,-11.9,83.4,1.1,86.1,15.5C88.9,29.8,79.8,45.5,67.7,57.8C55.7,70,40.7,78.8,25.7,79.4C10.8,80.1,-4.2,72.7,-17.2,65.6C-30.2,58.6,-41.3,52,-52.2,43.2C-63.2,34.3,-74,23.3,-79.4,9.3C-84.7,-4.7,-84.6,-21.6,-76.6,-33.3C-68.6,-44.9,-52.8,-51.2,-38.7,-60.2C-24.6,-69.3,-12.3,-81,2.5,-84.8C17.2,-88.6,34.4,-84.5,43.5,-73.2Z"
+                            transform="translate(100 100)" />
+                    </svg>
+                </span>
+                <img src="./public/images/pet-medicare.jpg" alt="" class="w-36 rounded-full object-cover md:w-64">
+            </div>
+            <span class="w-60 md:w-72">
+                <h1 class="capitalize text-3xl font-bree font-bold">Pet Medi-Care</h1>
+                <p class="text-xs md:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati
+                    nihil ex itaque,
+                    exercitationem quos autem, aut facere ipsa tenetur veniam quam rerum, aspernatur deleniti fugit
+                    voluptatibus vero. Exercitationem, minima!
+                    <span id="textMore" class="hidden">Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit.
+                        Illum expedita laboriosam incidunt, corrupti quis in laborum dignissimos commodi dolores dolorem
+                        eos voluptatem nesciunt officia eum ab molestias ipsum soluta fugiat.</span>
+                    <span id="readMore" class="text-gray-500 cursor-pointer">Read more...</span>
+                </p>
+            </span>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="capitalize font-bree text-3xl">the Medi-Care we have</h1>
+            <p class="text-center w-full md:w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, et qui
+                eius quae id quibusdam eveniet sit nobis, tempore omnis quidem rerum natus facere! Ipsam odio ad
+                perspiciatis distinctio eaque?</p>
+            <div class="mt-10 flex flex-wrap justify-center">
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-viruses fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Vaccine</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Ipsam dolorem, eveniet nam beatae similique vitae provident aliquam? Quod,
+                        suscipit?</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-capsules fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Vitamins</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. In repellat culpa deleniti eos, quos quo distinctio.</p>
+                </div>
+                <div
+                    class="w-40 h-64 flex flex-col items-center py-6 px-4 m-1 box-border rounded-xl bg-gray-300 drop-shadow-xl overflow-hidden md:w-56 md:h-72">
+                    <span class="inline-block p-5 rounded-full bg-tiffany">
+                        <i class="fa-solid fa-shield-heart fa-2xl"></i>
+                    </span>
+                    <h1 class="pt-6 capitalize font-bree text-lg">Prevention</h1>
+                    <p class="mt-2 overflow-hidden text-center text-sm">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Fuga, at!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span class="inline-block mt-20 py-px w-full bg-ash"></span>
+    <footer class="mt-10 px-3 md:px-10">
+        <a href="" class="inline-block">
+            <h1 class="font-permanent font-bold text-4xl">Petty</h1>
+        </a>
+        <section class="block lg:flex">
+            <div class="py-5 flex flex-wrap justify-between w-full lg:w-1/2">
+                <div class="mr-10 my-5 md:mr-0 md:my-0">
+                    <p class="text-xl font-bree">Shop</p>
+                    <ul class="">
+                        <li class="font-preahvihear text-base lg:text-sm xl:text-base"><a href="">Service</a></li>
+                        <li class="font-preahvihear text-base lg:text-sm xl:text-base"><a href="">Training</a></li>
+                        <li class="font-preahvihear text-base lg:text-sm xl:text-base"><a href="">Medi Care</a></li>
+                    </ul>
+                </div>
+                <div class="mr-10 my-5 md:mr-0 md:my-0">
+                    <p class="text-xl font-bree">Help</p>
+                    <ul class="">
+                        <li class="font-preahvihear text-base lg:text-sm xl:text-base"><a href="">Contact Us</a></li>
+                        <li class="font-preahvihear text-base lg:text-sm xl:text-base"><a href="">FAQ</a></li>
+                        <li class="font-preahvihear text-base lg:text-sm xl:text-base"><a href="">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="w-64 mr-10 my-5 md:mr-0 md:my-0">
+                    <p class="text-xl font-bree">About</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore cupiditate
+                        minus. Deserunt similique quam quidem hic id reiciendis, repudiandae consequatur omnis vitae
+                        totam accusantium voluptate in exercitationem magnam doloribus?</p>
+                </div>
+            </div>
+            <div class="py-5 w-full flex flex-col items-end justify-center sm:flex-row lg:flex-col sm:items-start lg:items-end lg:w-1/2">
+                <div class="order-first flex sm:order-last lg:order-first">
+                    <input type="email"
+                        class="px-4 py-2 rounded-full w-56 border-2 border-pale focus:outline-none focus:border-steel md:w-72"
+                        placeholder="Your Email Address" autocomplete="off">
+                    <input type="button" value="Subscribe"
+                        class="px-6 py-2 bg-yellow-400 rounded-full cursor-pointer font-bree drop-shadow-lg">
+                </div>
+                <div class="order-first py-2 mt-0 flex space-x-3 justify-end px-3 md:space-x-5 lg:order-last lg:mt-8">
+                    <a href="">
+                        <svg role="img" width="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Instagram</title>
+                            <path fill="#2081C3"
+                                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg role="img" width="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Facebook</title>
+                            <path fill="#2081C3"
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg role="img" width="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Twitter</title>
+                            <path fill="#2081C3"
+                                d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg role="img" width="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>LinkedIn</title>
+                            <path fill="#2081C3"
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="mt-10">
+            <p class="text-gray-700 text-sm">Code bg Ghege</p>
+            <p class="text-gray-700 text-sm">&copy <span id="copyright"></span></p>
+        </div>
+    </footer>
+
+    <script src="./public/js/script.js"></script>
+</body>
+
+</html>
